@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.artist_wrapper {
+  display: flex;
+  width: 100%;
+  padding: 100px 5%;
+}
+.artist_wrapper .back_btn {
+  position: fixed;
+  top: 70px;
+  z-index: 5;
+}
+.artist_wrapper .artist_int {
+  width: 40%;
+  position: relative;
+}
+.artist_wrapper .artist_int .artist_int_box {
+  width: 100%;
+  height: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.artist_wrapper .artist_int .artist_int_box figure {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+.artist_wrapper .artist_int .artist_int_box figure .artist_name {
+  margin: 30px 0;
+  font-size: 30px;
+}
+.artist_wrapper .artist_int .artist_int_box figure img {
+  width: 100%;
+}
+.artist_wrapper .artist_int .artist_int_box .art_description {
+  font-size: 15px;
+  text-align: left;
+}
+.artist_wrapper .artwork_int {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 57%;
+  padding-left: 3%;
+}
+.artist_wrapper .artwork_int .artwork_box {
+  width: 40%;
+  min-width: 200px;
+  margin-bottom: 30px;
+}
+.artist_wrapper .artwork_int .artwork_box p {
+  width: 100%;
+}
+.artist_wrapper .artwork_int .artwork_box p img {
+  width: 100%;
+}/*# sourceMappingURL=Artist.css.map */

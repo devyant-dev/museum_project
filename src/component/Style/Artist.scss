@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.artist_wrapper{
+  display: flex;
+  width: 100%;
+  padding: 100px 5%;
+  // background-color: #ddd;
+
+  .back_btn{
+    position: fixed;
+    top: 70px;
+    z-index: 5;
+  }
+
+  .artist_int{
+    width: 40%;
+    position: relative;
+    // background-color: antiquewhite;
+
+    .artist_int_box{
+      width: 100%;
+      height: auto;
+      position: sticky;
+      top: 0;
+      left: 0;
+
+      figure{
+        width: 100%;
+        max-width: 600px;
+        text-align: left;
+  
+        .artist_name{
+          margin: 30px 0;
+          font-size: 30px;
+        }
+  
+        img{
+          width: 100%;
+        }
+      }
+  
+      .art_description{
+        font-size: 15px;
+        text-align: left;
+      }
+    }
+
+  }
+
+
+  .artwork_int{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 57%;
+    padding-left: 3%;
+    
+    .artwork_box{
+      width: 40%;
+      min-width: 200px;
+      margin-bottom: 30px;
+
+      p{
+        width: 100%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}
